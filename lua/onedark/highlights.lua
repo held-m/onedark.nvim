@@ -111,7 +111,7 @@ hl.syntax = {
     Include = colors.Purple,
     Keyword = {fg = c.purple, fmt = cfg.code_style.keywords},
     Define = colors.Purple,
-    Typedef = colors.Purple,
+    Typedef = c.variable,
     Exception = colors.Purple,
     Conditional = {fg = c.purple, fmt = cfg.code_style.keywords},
     Repeat = {fg = c.purple, fmt = cfg.code_style.keywords},
@@ -562,7 +562,7 @@ hl.plugins.mini = {
 hl.langs.c = {
     cInclude = colors.Blue,
     cStorageClass = colors.Purple,
-    cTypedef = c.variable,
+    cTypedef = colors.Purple,
     cDefine = colors.Cyan,
     cTSInclude = colors.Blue,
     cTSConstant = colors.Cyan,
