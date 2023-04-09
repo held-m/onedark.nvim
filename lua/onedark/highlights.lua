@@ -195,7 +195,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@type"] = colors.Yellow,
         ["@type.builtin"] = colors.Orange,
         ["@variable"] = {fg = c.variable, fmt = cfg.code_style.variables},
-        ["@variable.builtin"] = {fg = c.red, fmt = cfg.code_style.variables},
+        ["@variable.builtin"] = {fg = c.cyan, fmt = cfg.code_style.variables},
     }
 else
     hl.treesitter = {
