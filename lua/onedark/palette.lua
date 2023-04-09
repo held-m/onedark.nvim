@@ -222,7 +222,7 @@ return {
 		diff_delete = "#2a2626",
 		diff_change = "#1a2a37",
 		diff_text = "#2c485f",
-		variable = "#dbb671",
+		variable = "#a37d36",
 		func = "#8fb573",
 		keyword = "#bb70d2",
 		comment = "#5a5b5e",
