@@ -1,6 +1,6 @@
 local M = {}
 
-M.styles_list = { 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer', 'light' }
+M.styles_list = { 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer', 'light', 'my' }
 
 ---Change onedark option (vim.g.onedark_config.option)
 ---It can't be changed directly by modifying that field due to a Neovim lua bug with global variables (onedark_config is a global variable)
