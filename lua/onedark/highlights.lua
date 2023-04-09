@@ -171,7 +171,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@string.regex"] = {fg = c.orange, fmt = cfg.code_style.strings},
         ["@string.escape"] = {fg = c.red, fmt = cfg.code_style.strings},
         ["@symbol"] = colors.Cyan,
-        ["@tag"] = colors.Purple,
+        ["@tag"] = c.variable,
         ["@tag.attribute"] = colors.Yellow,
         ["@tag.delimiter"] = colors.Purple,
         ["@text"] = colors.Fg,
