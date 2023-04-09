@@ -43,7 +43,7 @@ end
 
 local default_config = {
     -- Main options --
-    style = 'warmer',    -- choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
+    style = 'my',    -- choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
     toggle_style_key = nil,
     toggle_style_list = M.styles_list,
     transparent = true,     -- don't set background
@@ -57,7 +57,7 @@ local default_config = {
         keywords = 'none',
         functions = 'none',
         strings = 'none',
-        variables = 'none'
+        variables = 'bold'
     },
 
     -- Lualine options --
