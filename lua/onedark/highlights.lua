@@ -154,13 +154,13 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@keyword"] = {fg = c.purple, fmt = cfg.code_style.keywords},
         ["@keyword.function"] = {fg = c.purple, fmt = cfg.code_style.functions},
         ["@keyword.operator"] =  {fg = c.purple, fmt = cfg.code_style.keywords},
-        ["@label"] = colors.variable,
+        ["@label"] = colors.Red,
         ["@method"] = colors.Blue,
         ["@namespace"] = colors.Yellow,
         ["@none"] = colors.Fg,
         ["@number"] = colors.Orange,
         ["@operator"] = colors.Fg,
-        ["@parameter"] = colors.Variable,
+        ["@parameter"] = colors.Red,
         ["@parameter.reference"] = colors.Fg,
         ["@property"] = colors.Cyan,
         ["@punctuation.delimiter"] = colors.LightGrey,
@@ -195,7 +195,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@type"] = colors.Yellow,
         ["@type.builtin"] = colors.Orange,
         ["@variable"] = {fg = c.variable, fmt = cfg.code_style.variables},
-        ["@variable.builtin"] = {fg = c.red, fmt = cfg.code_style.variables},
+        ["@variable.builtin"] = {fg = c.variable, fmt = cfg.code_style.variables},
     }
 else
     hl.treesitter = {
@@ -226,7 +226,7 @@ else
         TSNone = colors.Fg,
         TSNumber = colors.Orange,
         TSOperator = colors.Fg,
-        TSParameter = colors.Variable,
+        TSParameter = colors.Red,
         TSParameterReference = colors.Fg,
         TSProperty = colors.Cyan,
         TSPunctDelimiter = colors.LightGrey,
