@@ -43,10 +43,10 @@ end
 
 local default_config = {
     -- Main options --
-    style = 'dark',    -- choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
+    style = 'warmer',    -- choose between 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer' and 'light'
     toggle_style_key = nil,
     toggle_style_list = M.styles_list,
-    transparent = false,     -- don't set background
+    transparent = true,     -- don't set background
     term_colors = true,      -- if true enable the terminal
     ending_tildes = false,    -- show the end-of-buffer tildes
     cmp_itemkind_reverse = false,    -- reverse item kind highlights in cmp menu
