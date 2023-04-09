@@ -228,5 +228,6 @@ return {
 		comment = "#5a5b5e",
 		string = "#de5d68",
 		number = "#c49060",
+		annotation = "#a6a598",
 	},
 }
