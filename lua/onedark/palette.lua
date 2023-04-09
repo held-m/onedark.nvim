@@ -223,5 +223,10 @@ return {
 		diff_change = "#1a2a37",
 		diff_text = "#2c485f",
 		variable = "#dbb671",
+		function = "#8fb573",
+		keyword = "#bb70d2",
+		comment = "#5a5b5e",
+		string = "#de5d68",
+		number = "#c49060",
 	},
 }
