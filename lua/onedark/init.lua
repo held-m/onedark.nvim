@@ -57,7 +57,7 @@ local default_config = {
         keywords = 'none',
         functions = 'none',
         strings = 'none',
-        variables = 'bold'
+        variables = 'none'
     },
 
     -- Lualine options --
