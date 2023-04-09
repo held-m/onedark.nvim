@@ -150,7 +150,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@function"] = {fg = c.func, fmt = cfg.code_style.functions},
         ["@function.builtin"] = {fg = c.cyan, fmt = cfg.code_style.functions},
         ["@function.macro"] = {fg = c.cyan, fmt = cfg.code_style.functions},
-        ["@include"] = c.fg,
+        ["@include"] = c.cyan,
         ["@keyword"] = {fg = c.keyword, fmt = cfg.code_style.keywords},
         ["@keyword.function"] = {fg = c.purple, fmt = cfg.code_style.functions},
         ["@keyword.operator"] =  {fg = c.purple, fmt = cfg.code_style.keywords},

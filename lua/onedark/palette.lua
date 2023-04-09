@@ -226,7 +226,7 @@ return {
 		func = "#8fb573",
 		keyword = "#bb70d2",
 		comment = "#5a5b5e",
-		string = "#de5d68",
+		string = "#a6a598",
 		number = "#c49060",
 		annotation = "#a6a598",
 	},
