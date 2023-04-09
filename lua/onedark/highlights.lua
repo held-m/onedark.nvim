@@ -226,7 +226,7 @@ else
         TSNone = colors.Fg,
         TSNumber = colors.Orange,
         TSOperator = colors.Fg,
-        TSParameter = colors.Red,
+        TSParameter = colors.variable,
         TSParameterReference = colors.Fg,
         TSProperty = colors.Cyan,
         TSPunctDelimiter = colors.LightGrey,
