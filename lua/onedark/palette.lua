@@ -224,7 +224,7 @@ return {
 		diff_text = "#2c485f",
 		variable = "#a37d36",
 		func = "#8fb573",
-		keyword = "#bb70d2",
+		keyword = "#8b549c",
 		comment = "#5a5b5e",
 		string = "#a6a598",
 		number = "#c49060",
