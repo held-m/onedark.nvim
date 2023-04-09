@@ -154,7 +154,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@keyword"] = {fg = c.purple, fmt = cfg.code_style.keywords},
         ["@keyword.function"] = {fg = c.purple, fmt = cfg.code_style.functions},
         ["@keyword.operator"] =  {fg = c.purple, fmt = cfg.code_style.keywords},
-        ["@label"] = colors.Red,
+        ["@label"] = colors.variable,
         ["@method"] = colors.Blue,
         ["@namespace"] = colors.Yellow,
         ["@none"] = colors.Fg,
