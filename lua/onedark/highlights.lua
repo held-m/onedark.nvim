@@ -171,7 +171,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@string.regex"] = {fg = c.orange, fmt = cfg.code_style.strings},
         ["@string.escape"] = {fg = c.red, fmt = cfg.code_style.strings},
         ["@symbol"] = colors.Cyan,
-        ["@tag"] = c.variable,
+        ["@tag"] = colors.Purple,
         ["@tag.attribute"] = colors.Yellow,
         ["@tag.delimiter"] = colors.Purple,
         ["@text"] = colors.Fg,
@@ -562,7 +562,7 @@ hl.plugins.mini = {
 hl.langs.c = {
     cInclude = colors.Blue,
     cStorageClass = colors.Purple,
-    cTypedef = colors.Purple,
+    cTypedef = c.variable,
     cDefine = colors.Cyan,
     cTSInclude = colors.Blue,
     cTSConstant = colors.Cyan,
